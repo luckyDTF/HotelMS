@@ -7,10 +7,16 @@ import java.util.List;
 public class Page<T> {
 	//分页记录数
 	public static final int  RECEIVETARGET_PER_PAGE_RECORD_NUM = 10;
-	public static final int  PASSENGER_PER_PAGE_RECORD_NUM = 2;
+	public static final int  PASSENGER_PER_PAGE_RECORD_NUM = 10;
 
-  //客房list每页记录数
-  public static final int ROOM_PER_PAGE_RECORD_NUM = 3;
+    //客房list每页记录数
+    public static final int ROOM_PER_PAGE_RECORD_NUM = 10;
+
+    //入住模块每页记录数
+	public static final int CHCKIN_PER_PAGE_RECORD_NUM = 10;
+
+	//预定模块每页记录数
+	public static final int RRESERVE_PER_PAGE_RECORD_NUM = 10;
 
 	//每页记录数
 	private int perPageRecordNum;
